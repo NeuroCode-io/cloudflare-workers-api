@@ -1,0 +1,54 @@
+{
+  "name": "@neurocode.io/cloudflare-workers-api",
+  "version": "0.1.0",
+  "description": "A library for building fast APIs on cloudflare workers",
+  "keywords": [
+    "cloudflare-workers-api",
+    "cloudflare",
+    "cloudflare-workers"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "tsconfig.json",
+    "README.md",
+    "package.json"
+  ],
+  "module": "dist/index.js",
+  "source": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neurocode-io/cloudflare-workers-api.git"
+  },
+  "author": "neurocode I/O GmbH <info@neurocode.io>",
+  "homepage": "https://github.com/neurocode-io/cloudflare-workers-api/tree/master/README.md",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo hello",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "format": "prettier --write '**/*.{ts,js,css,json,md}'"
+  },
+  "dependencies": {
+    "trouter": "^3.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^2.0.0",
+    "@types/trouter": "^3.1.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  },
+  "np": {
+    "contents": "dist"
+  },
+  "bugs": {
+    "url": "https://github.com/neurocode-io/cloudflare-workers-api/issues"
+  }
+}
