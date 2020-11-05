@@ -35,7 +35,7 @@
     "trouter": "^3.1.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^2.0.0",
+    "@cloudflare/workers-types": "^2.1.0",
     "@types/trouter": "^3.1.0",
     "prettier": "^2.1.2",
     "typescript": "^4.0.5"
