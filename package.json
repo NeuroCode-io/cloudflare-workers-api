@@ -1,6 +1,6 @@
 {
   "name": "@neurocode.io/cloudflare-workers-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A library for building fast APIs on cloudflare workers",
   "keywords": [
     "cloudflare-workers-api",
